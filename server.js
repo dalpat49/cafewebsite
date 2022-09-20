@@ -6,7 +6,7 @@ const route = require("./routes/index");
 const app = express();
 
 //port and host
-const port = 8020;
+const port = process.env.PORT || 8000;
 const host = "localhost";
 
 //middlewares 
