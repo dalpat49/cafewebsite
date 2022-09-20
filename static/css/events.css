@@ -1,0 +1,165 @@
+body {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0;
+  background-color: #f5deb33d !important;
+}
+
+.container-fluid .logo {
+  text-shadow: 3px 3px 5px #ff0000, 5px 5px 5px blue;
+  font-family: Merriweather;
+}
+
+.navbar {
+  background-color: #128c7e;
+}
+
+.collapse ul li {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  font-weight: 900;
+}
+
+.nav-item a {
+  color: red;
+  text-shadow: 3px 3px 5px blue, 5px 5px 5px greenyellow;
+  font-family: handlee;
+}
+
+.blast-img {
+  width: 100px;
+  /* height: .5rem; */
+  position: absolute;
+  left: 7rem;
+  top: -1px;
+  z-index: -1;
+}
+
+.col-lg-6 {
+  text-align: center;
+}
+
+.img-fluid {
+  height: 20px;
+}
+
+.order-img {
+  border-bottom: 5px solid grey;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  height: 10rem;
+  width: 100%;
+}
+
+.p-3:hover {
+  border: 1px solid black;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  box-shadow: 0 0 2px 2px blue;
+}
+
+.main-footer {
+  padding-top: 2%;
+  background-color: #128c7e;
+  color: white;
+}
+.soc-item {
+  display: inline-block;
+  margin: 0 0.1rem 0.2rem 0.1rem;
+  padding: 3px 5px 0 5px;
+}
+
+.soc-item:hover {
+  background-color: #f9e1afad;
+}
+
+@media only screen and (max-width: 576px) {
+  .section-2 {
+    margin: 0 auto;
+    padding: 5% 20%;
+  }
+
+  .first-col h1 {
+    font-weight: 200;
+    font-family: lobster;
+    font-size: 2.5rem;
+  }
+
+  .card {
+    margin-bottom: 5%;
+  }
+
+  .event-cards {
+    padding: auto;
+    text-align: center;
+  }
+
+  .first-col h3 {
+    font-family: handlee;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .marvel-logo-img-bg {
+    position: absolute;
+    left: 10rem;
+    top: 18.3rem;
+    z-index: -1;
+    display: none;
+  }
+
+  .first-col .marvel-name {
+    font-family: Merriweather;
+    text-shadow: 6px 6px 10px #ff0000, 10px 10px 10px blue;
+    font-size: 2rem;
+    line-height: 5rem;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .section-2 {
+    margin: 0 auto;
+    padding: 5% 35%;
+  }
+
+  .card {
+    margin-bottom: 5%;
+  }
+
+  .first-col h1 {
+    font-weight: 200;
+    font-family: lobster;
+    font-size: 3rem;
+  }
+
+  .section-3 {
+    font-size: 1rem;
+  }
+
+  .first-col h3 {
+    font-family: handlee;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  .marvel-logo-img-bg {
+    position: absolute;
+    left: 18rem;
+    top: 13rem;
+    z-index: -1;
+    display: none;
+  }
+
+  .first-col .marvel-name {
+    font-family: Merriweather;
+    text-shadow: 6px 6px 10px #ff0000, 10px 10px 10px blue;
+    font-size: 3.5rem;
+    line-height: 10rem;
+  }
+}

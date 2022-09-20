@@ -1,0 +1,47 @@
+.booking-main{
+  margin: 0 auto 0 auto;
+    border:1px solid black;
+    width: 35rem;
+    margin-top:3%;
+    background-color: white;
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.795);
+    margin-bottom: 5%;
+}
+.booking-form{
+    padding: 4%;
+}
+
+.error{
+  color: red;
+  font-size: .8rem;
+  margin-bottom: -.1rem;
+
+}
+.main-footer{
+  padding-top: 2%;
+  background-color: #128c7e;
+  color: white;
+}
+.soc-item{
+  display: inline-block;
+  margin: 0 0.1rem 0.2rem 0.1rem;
+  padding: 3px 2px 0 2px;
+  border: 2px solid #f9e2af;
+
+}
+
+.soc-item:hover{
+background-color: #f9e1afad;
+
+}
+
+@media only screen and (max-width: 576px) {
+  .booking-main{
+      margin: 0 auto 0 auto;
+      border:1px solid black;
+      width: 20rem;
+      margin-top:3%;
+      background-color: white;
+      box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.795);
+  }
+}
