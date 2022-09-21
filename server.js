@@ -7,7 +7,6 @@ const app = express();
 
 //port and host
 const port = process.env.PORT || 8000;
-const host = "localhost";
 
 //middlewares 
 app.set(express.urlencoded({ extended: true }));
@@ -24,6 +23,6 @@ app.use("/shakes", route);
 
 
 //server listing
-app.listen(port, host, function () {
+app.listen(port, function () {
   console.log(`server has been started at ${port}`);
 });
