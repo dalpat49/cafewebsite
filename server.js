@@ -11,15 +11,11 @@ const port = process.env.PORT || 8000;
 //middlewares 
 app.set(express.urlencoded({ extended: true }));
 app.use(express.static("./static"));
+app.set("view engine", `pug`);
 
 //imported routes
 app.use("/", route);
-app.use("/booking", route);
-app.use("/review", route);
-app.use("/coffee", route);
-app.use("/pizzas", route);
-app.use("/burgers", route);
-app.use("/shakes", route);
+
 
 
 //server listing
