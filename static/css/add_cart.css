@@ -1,0 +1,167 @@
+
+body {
+    background-color: #fff8e1; 
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #f8f9fa; 
+    padding: 20px; 
+    
+}
+
+h1.text-center {
+    margin: 20px 0;
+    color: rgb(44, 39, 2);
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+
+.card-title {
+    color: #f7c600; 
+   font-family: 'Gill Sans', sans-serif;
+    margin: 0; 
+    letter-spacing: 2px;
+}
+
+.card-text {
+    color: #555; 
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+img {
+    border-radius: 7px;
+}
+
+
+button {
+    border-radius: 25px;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.btn-danger {
+    background-color: #ffd500;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.btn-outline-secondary {
+    border-color: #f7c600;
+    color: #f7c600;
+    transition: 0.3s ease;
+}
+
+.btn-success {
+    background-color: #f7c600;
+    border: none;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #ffc107;
+}
+
+
+.text-right h4 {
+    color: #333;
+}
+
+.text-right strong {
+    color: #f7c600;
+}
+
+
+.btn-danger.remove-item {
+    background-color: #ffd900; 
+    border: none;
+    color: white;
+    border-radius: 4px; 
+    padding: 5px 10px; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin-top: 30px;
+    margin-bottom:30px;
+
+  
+}
+
+.btn-danger.remove-item:hover {
+    background-color: #e6c200; 
+    transform: scale(1.05); 
+}
+
+.btn-danger.remove-item i {
+    margin-right: 4px; 
+    font-size: 12px; 
+}
+
+
+@media (max-width: 768px) {
+    .btn-danger.remove-item {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+}
+
+.btn-success {
+    background-color: #ffd900 !important; 
+    border: none!important;
+    color: white!important;
+    border-radius: 30px!important; 
+    padding: 12px 30px!important; 
+    font-size: 16px!important; 
+    font-weight: bold!important;
+    text-transform: uppercase!important; 
+    transition: background-color 0.3s ease, transform 0.2s ease!important;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2)!important; 
+    letter-spacing: 1px!important;
+    cursor: pointer!important;
+  
+}
+
+.btn-success:hover {
+    background-color: #e6c200!important; 
+    transform: scale(1.05)!important;
+}
+
+.btn-success:active {
+    background-color: #b89e00!important; 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2)!important; 
+    transform: scale(0.98)!important; 
+}
+
+
+@media (max-width: 768px) {
+    .btn-success {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+button.btn {
+   background-color: white; 
+    color: #6c757d; 
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button.btn:hover {
+    background-color: #cfd0d2; 
+    color: white; 
+}

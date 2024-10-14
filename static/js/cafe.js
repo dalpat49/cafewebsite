@@ -18,8 +18,8 @@ function validateForm() {
 
 
     if (email == "") {
-        let error = "email shoule be filled";
-        document.querySelector("#email_error").innerHTML = error;
+        let error = "email should be filled";
+        document.querySelector("#`email_error`").innerHTML = error;
         return false;
     }
     else {
@@ -34,10 +34,5 @@ function validateForm() {
     else {
         document.querySelector("#name_error").remove("p")
     }
-
- 
-
-   
-
 
 }

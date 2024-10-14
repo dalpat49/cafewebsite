@@ -379,6 +379,43 @@ route.get("/product/order/:id", async(req, res) => {
 
 })
 
+route.get("/soup", async(req, res) => {
+  try{
+    return res.render("soup");
+  }
+  catch(err){
+    console.log(err)
+  }
+
+})
+route.get("/add_cart", async(req, res) => {
+  try{
+    return res.render("add_cart");
+  }
+  catch(err){
+    console.log(err)
+  }
+
+})
+route.get("/signup", async(req, res) => {
+  try{
+    return res.render("signup");
+  }
+  catch(err){
+    console.log(err)
+  }
+
+})
+
+route.get("/login", async(req, res) => {
+  try{
+    return res.render("login");
+  }
+  catch(err){
+    console.log(err)
+  }
+
+})
 //ordde
 route.post("/product/ordered/", async(req, res) => {
   try{
