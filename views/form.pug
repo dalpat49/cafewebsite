@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product - Bibim Bliss</title>
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+<body>
+    <div class="admin-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Bibim Bliss</h2>
+            <nav>
+                <a href="#">Dashboard</a>
+                <a href="#">Orders</a>
+                <a href="#">Products</a>
+                <a href="#">Categories</a>
+                <a href="#">Users</a>
+                <a href="#">Reports</a>
+                <a href="#">Settings</a>
+                <a href="#">Logout</a>
+            </nav>
+        </aside>
+        </div>
+    <div class="form-container">
+        <h2>Add New Product</h2>
+        <form id="productForm">
+            <div class="form-group">
+                <label for="productName">Product Name</label>
+                <input type="text" id="productName" name="productName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="productDescription">Product Description</label>
+                <textarea id="productDescription" name="productDescription" rows="4" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="productPrice">Price (₹)</label>
+                <input type="number" id="productPrice" name="productPrice" step="0.01" required>
+            </div>
+
+            <div class="form-group">
+                <label for="productCategory">Category</label>
+                <select id="productCategory" name="productCategory" required>
+                    <option value="appetizer">Appetizer</option>
+                    <option value="main">Main Course</option>
+                   
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="productImage">Product Image</label>
+                <input type="file" id="productImage" name="productImage" accept="image/*" required>
+            </div>
+
+            <button type="submit" class="btn">Add Product</button>
+        </form>
+    </div>
+</body>
+</html>
+

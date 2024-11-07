@@ -379,9 +379,14 @@ route.get("/product/order/:id", async(req, res) => {
 
 })
 
-route.get("/soup", async(req, res) => {
+route.get("/cafe-product", async(req, res) => {
   try{
-    return res.render("soup");
+
+    let getProduct = [{
+      name:'Soup',
+    }]
+    return res.render("products",{Data:getProduct});
+    //return res.render("products");
   }
   catch(err){
     console.log(err)
@@ -416,6 +421,53 @@ route.get("/login", async(req, res) => {
   }
 
 })
+route.get("/adminLogin", async(req, res) => {
+  try{
+    return res.render("adminLogin");
+  }
+  catch(err){
+    console.log(err)
+  }
+
+})
+route.get("/adminProfile", async(req, res) => {
+  try{
+    return res.render("adminProfile");
+  }
+  catch(err){
+    console.log(err)
+  }
+
+})
+
+route.get("/adminHome", async(req, res) => {
+  try{
+    return res.render("adminHome");
+  }
+  catch(err){
+    console.log(err)
+  }
+
+})
+route.get("/form", async(req, res) => {
+  try{
+    return res.render("form");
+  }
+  catch(err){
+    console.log(err)
+  }
+
+})
+route.get("/category", async(req, res) => {
+  try{
+    return res.render("category");
+  }
+  catch(err){
+    console.log(err)
+  }
+
+})
+
 //ordde
 route.post("/product/ordered/", async(req, res) => {
   try{

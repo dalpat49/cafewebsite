@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.admin-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+
+.sidebar {
+    width: 250px;
+    background-color: rgb(30, 26, 1);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+.sidebar nav a {
+    color: #fff;
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 1.1em;
+    display: block;
+    transition: background 0.3s;
+}
+
+.sidebar nav a:hover {
+    background-color: #69560d;
+    padding-left: 10px;
+}
+
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.header h1 {
+    font-size: 2em;
+    color: #FFD700;
+}
+
+.header-actions {
+    display: flex;
+    gap: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+
+.dashboard-overview, .analytics {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+
+.overview-card, .analytics-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+.overview-card h3, .analytics-card h3 {
+    font-size: 1.2em;
+    color: rgb(30, 26, 1);
+}
+
+.overview-card p, .analytics-card p {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 0.5em;
+}
+
+
+.recent-activity, .recent-orders {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+}
+
+.recent-activity h2, .recent-orders h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.recent-activity ul li, .recent-orders table {
+    font-size: 1.1em;
+    color: #555;
+    padding: 5px 0;
+}
+
+.recent-orders table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recent-orders th, .recent-orders td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.recent-orders th {
+    background-color: #f4f4f9;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Quick actions styling */
+.quick-actions {
+    display: flex;
+    gap: 1em;
+}
+
+.quick-actions button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #fff;
+    background-color: rgb(30, 26, 1);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.quick-actions button:hover {
+    background-color: rgb(60, 52, 1);
+}
